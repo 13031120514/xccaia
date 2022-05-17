@@ -20,6 +20,7 @@ import java.util.UUID;
  */
 @RestController
 @RequestMapping("/file")
+@ResponseBody
 public class FileController {
 
   @Autowired

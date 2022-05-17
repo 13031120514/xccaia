@@ -97,7 +97,7 @@ public class CompletableFutureTest {
         CompletableFuture<Integer> intCompletableFuture2 = CompletableFuture.supplyAsync(() -> divide(25));
         intCompletableFuture.thenCombine(intCompletableFuture2, (i, j) -> i + j)
                 .thenApply(value -> "\"" + value + "\"")// public <U> CompletableFuture<U> thenApply 有返回值
-                .thenAccept(System.out::println);// public CompletableFuture<Void> thenAccept 无返回值
+                .thenAccept(System.out::println);// public CompletableFuture<Void> thenAccept 无返回值 
 
     }
 
