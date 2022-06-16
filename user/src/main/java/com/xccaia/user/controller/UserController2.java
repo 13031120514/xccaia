@@ -21,6 +21,7 @@ import sun.misc.ProxyGenerator;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -156,4 +157,18 @@ public class UserController2 implements BeanFactoryAware {
             }
         }
     }
+
+
+    public static void main(String[] args) {
+
+        HashMap map = new HashMap<>();
+
+        System.out.println(map.put(null,null));
+        System.out.println(map.put(1,null));
+        System.out.println(map.put(1,null));
+        System.out.println(map.put(1,"5gyhg"));
+
+    }
+
+
 }

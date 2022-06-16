@@ -2,11 +2,6 @@ package com.sgcc.eip.cmc.cable.biz.acquisition.dto.msg;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.xc.dto.ProtocolGatherRepDTO;
-import com.xc.dto.User;
-import com.xc.dto.User1;
-
-import java.util.Arrays;
 
 public class MainTest {
 
