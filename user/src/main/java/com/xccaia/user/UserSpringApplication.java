@@ -23,7 +23,7 @@ public class UserSpringApplication  {
     properties.setProperty("offsetAsPageNum", "true");
     properties.setProperty("rowBoundsWithCount", "true");
     properties.setProperty("reasonable", "true");
-    properties.setProperty("dialect", "mysql"); // 配置mysql数据库的方言11
+    properties.setProperty("dialect", "mysql"); // 配置mysql数据库的方言111
     pageHelper.setProperties(properties);
     return pageHelper;
   }
